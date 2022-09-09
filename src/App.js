@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="max-w-screen">
+      <div className="max-h-screen">
         <Navbar />
         <FirstPage />
         <Footer />

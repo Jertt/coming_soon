@@ -3,14 +3,14 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-      <div className="flex justify-between py-7 px-32 bg-red-300">
+      <nav className="fixed w-full px-80 py-7 top-0 flex flex-row justify-between z-10 bg-black bg-opacity-30 filter backdrop-filter backdrop-blur-lg text-white">
         <div>
-            LOGO HERE
+            3AM BRAND COMMUNICATION
         </div>
         <div>
-            NUMBERS HERE
+            <a href="tel:123456789">+383 12 345 678 </a> <span className='mx-2'>|</span> <a href="tel:123456789">+383 12 345 678</a>
         </div>
-      </div>  
+      </nav>  
     </>
   )
 }
